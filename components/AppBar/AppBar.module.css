@@ -1,0 +1,10 @@
+.state:active , .state:focus, .state:target , .state:hover{
+
+    filter: saturate(200);
+
+    filter: hue-rotate(300);
+    transition: all 200ms ease-in;
+    
+    
+}
+

@@ -1,0 +1,28 @@
+.radio-buttons-container {
+    display: flex;
+    
+    /* flex-direction: column; */
+  }
+  
+  .radio-button {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .radio-button input[type="radio"] {
+    display: none;
+  }
+  
+  .radio-button .radio-button-ring {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    margin-right: 10px;
+  }
+  
+  .radio-button.selected .radio-button-ring {
+    background-color: #000;
+  }
+  
